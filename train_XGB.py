@@ -176,7 +176,4 @@ if __name__ == "__main__":
             mlflow.sklearn.log_model(model, "model", registered_model_name="ElasticnetWineModel")
         else:
             mlflow.sklearn.log_model(model, "model")
-
-
-
-    
+            
